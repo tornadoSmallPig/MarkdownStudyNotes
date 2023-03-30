@@ -164,17 +164,17 @@ go-cqhttp 默认配置文件
    `pipx install nb-cli`
 ### 2.使用nonebot框架,创建机器人
   在你想要放机器人的文件夹下运行 `nb create`创建机器人
-  ![图片](Nonebot_help/picture/nb_create.png)
+  ![图片](picture/nb_create.png)
   选择bootstrap一项
-  ![图片](Nonebot_help/nb_name.png)
+  ![图片](picture/nb_name.png)
   选择驱动,由于go-cqhttp用websockets,所以我们一定要选择
-  ![图片](\\picture/nb_choose_drive.png)
+  ![图片](picture/nb_choose_drive.png)
   选择协议,用v11的话兼容性好点
-  ![图片](\\picture/nb_protocol.png)
-  ![图片](\\picture/nb_ensure.png)
+  ![图片](picture/nb_protocol.png)
+  ![图片](picture/nb_ensure.png)
   选择内置插件
-  ![图片](\\picture/nb_echo.png)
-  ![图片](\\picture/nb_complete.png)
+  ![图片](picture/nb_echo.png)
+  ![图片](picture/nb_complete.png)
   跳转到机器人目录
   `cd bot_name`cd到创建机器人的文件夹
   在当前目录文件`.env.prod`中添加以下
